@@ -5,11 +5,8 @@ import java.util.Scanner;  // Needed for the Scanner class to read input
 public class custom_order {
 
     // STEP 1 PRINTING HELLO WORLD TO CONSOLE
-  public static void addItem(String item, int cost) {
-    int totalCost;
-    String addOnList;
-    totalCost+=cost;
-    addOnList+=item;
+  public static void main(String[] args) {
+  
     //System.out.println("Hello World!"); // print Hello World to console
       
     // TEST CODE
@@ -27,6 +24,7 @@ public class custom_order {
     double cost = 15.00; // Cost of cake and cupcakes
     final double TAX_RATE = .08;  // Sales tax rate
     double tax; // Amount of tax
+
 
     // Introduce shop and prompt user to input first name
     System.out.println("Welcome to Java's Cake & Cupcake Shop!");
@@ -116,5 +114,11 @@ public class custom_order {
     System.out.printf("The tax is: $%.2f\n", tax);
     System.out.printf("The total due is: $%.2f\n", (tax + cost));
 
+  }
+  static void addItem(String item, int cost) {
+    int totalCost;
+    String addOnList;
+    totalCost+=cost;
+    addOnList+=item;
   }
 }

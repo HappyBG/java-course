@@ -62,12 +62,9 @@ public class custom_order {
     // TEST CODE     
     
     // STEP 5 PROMPT USER TO ORDER
-
-  
-	  
-	  
-	  
-      
+    System.out.println("Do you want CUPCAKE or a CAKE?");
+    itemOrder = keyboard.nextLine();
+        
     // TEST CODE
       
     // STEP 6 PROMPT USER TO CHOOSE FROSTING

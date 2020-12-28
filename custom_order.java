@@ -35,7 +35,11 @@ public class custom_order {
     // TEST CODE
     
     // STEP 3 INPUT YOUR NAME AND PREPARE TO VIEW MENU
-   
+   System.out.print("What is your first name? ");
+   firstName = keyboard.nextline();
+
+   System.out.print(firstName + ", please see our MENU below: ");
+   System.out.print("\n"); //skips a line
 	  
       
     // TEST CODE     

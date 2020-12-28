@@ -68,26 +68,24 @@ public class custom_order {
     // TEST CODE
       
     // STEP 6 PROMPT USER TO CHOOSE FROSTING
-
-   
-	 
-	 
-	 
+    System.out.println("What type of FROSTING do you want? ");
+    System.out.println("Vanilla, Chocolate, Strawberry or Coco");
+    frostingType = keyboard.nextLine();
       
     //TEST CODE
       
     // STEP 7 PROMPT USER TO CHOOSE FILLING
-
-
-	  
+    System.out.println("What type of FILLING do you want? ");
+    System.out.println("Mocha, Mint, Lemon, Caramel or Raspberry");
+	  fillingType = keyboard.nextLine();
 	  
       
     // TEST CODE
       
     // STEP 8 PROMPT USER TO CHOOSE TOPPINGS
-
-
-	
+    System.out.println("What type of TOPPINGS do you want? ");
+    System.out.println("Sprinkles, Cinnamon, Cocoa, Nuts");
+    toppings = keyboard.nextLine();
       
       
     // TEST CODE
